@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(72deg, #3de880 1%, #8956f6 99%);
+}
+
+.geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-calculo {
+    margin: 20px 0 20px 0;
+    width: 340px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .18);
+    border-radius: 30px;
+    box-shadow: 1px 1px 4px #000;
+}
+
+.card-calculo h1 {
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.card-calculo input {
+    margin: 10px 0 10px 0;
+    width: 280px;
+    height: 35px;
+    border-radius: 25px;
+    font-size: 1.30rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .18);
+    border-radius: 30px;
+    
+}
+
+.resultado {
+    margin: 5px;
+}
+
+.qtdeKm, .qtdeLt {
+    border: 1px solid #000;
+}
+
+.btn {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card-calculo p {
+    font-weight: bold;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cabecalho-artigo {
+    width: 340px;
+    list-style: none;
+    display: list-item;
+    text-align: left;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .18);
+    box-shadow: 1px 1px 4px #000;
+    border-radius: 30px;
+}
+
+.cabecalho-artigo p, h1 {
+    font-size: 1.20rem;
+    margin: 20px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <title>Consumo por Litro</title>
+
+</head>
+<body>
+
+    <section class="geral">
+        <section class="card-calculo">
+
+            <h1>Consumo por litro</h1>
+            <p>!Utilizar o ponto no lugar da vírgula para valores com casas decimais!</p>
+            <h1 id="outAviso"></h1>
+
+            <label for="inKmPercorrido">Quilomêtros percorridos:
+                <input class="qtdeKm" type="text" id="inKmPercorrido" placeholder="Quilomêtros percorridos">
+            </label>
+
+            <label for="inLitroAbastecido">Litros abastecidos:
+                <input class="qtdeLt" type="text" id="inLitroAbastecido" placeholder="Quantidade de litros">
+            </label>
+
+            <input class="btn" type="button" id="btnConverter" value="Calcular consumo">
+
+            <p class="resultado" id="outKmPorLitro"></p>
+            <script src="js/consumo.js"></script>
+    
+        </section>
+
+    </section>
+
+    <article>
+        <header class="cabecalho-artigo">
+            <h1><strong>Como é feito o cálculo?</strong></h1>
+                <p>Km = Quilômetros</p>
+                <p>Lt = Litros</p>
+                <p>Km/L = Quilômetros por litro</p>
+                <p>Km ÷ Lt = Km/L</p>
+                <p><strong>Exemplo:</strong></p>
+                <p>120 ÷ 3.34 = 35.93</p>
+                <p>Ou seja, 120 Km dividido por 3.34 litros é igual a 35.93 Km por litro. Nesse exemplo, o veículo consegue rodar por 35.93 Km com um único litro de combustível.</p>
+        </header>
+    </article>
+
+</body>
+</html>
